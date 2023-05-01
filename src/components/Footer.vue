@@ -16,7 +16,8 @@
     text-align: center;
     padding: 40px;
     height: 100px;
-    background: #111111;
+    /* background: #111111; */
+    background: linear-gradient(#111111 0%, rgb(0, 11, 90) 100%);
   }
   .footer span {
     margin: 20px;

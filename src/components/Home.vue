@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <Intro />
-    <div class="visual" />
+    <!-- <div class="visual" /> -->
     <Portfolio />
     <About />
-    <div class="visual" />
+    <!-- <div class="visual" /> -->
     <Footer />
   </div>
 </template>
@@ -25,7 +25,7 @@
 
   .visual {
     height: 60px;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,21,173,1) 100%);
+    background: linear-gradient(#111111 0%, rgba(0,21,173,1) 100%);
   }
 
 </style>

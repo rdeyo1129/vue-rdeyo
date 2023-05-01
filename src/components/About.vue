@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <div class="visual-border" />
+    <!-- <div class="visual-border" /> -->
     <div class="resume">
       <div class="section">
         <h3>Experience</h3>
@@ -68,7 +68,7 @@
     margin: 0;
   }
   p {
-    margin: 10px;
+    margin: 0 10px 10px 10px;
   }
 
   .visual-border {
@@ -87,17 +87,18 @@
     width: 800px;
     padding: 40px 40px 0 40px;
     margin: 0 auto 80px auto;
-    background: #555555;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background: #333333;
+    border-radius: 10px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
   }
   .about .resume .section {
     padding-bottom: 40px;
   }
   .about .resume .text {
     padding: 20px 0 0px 20px;
-    border-top: 4px solid #AAAAAA;
-    border-left: 4px solid #AAAAAA;
+    border-top: 4px solid #555555;
+    border-left: 4px solid #555555;
     border-top-left-radius: 5px;
   }
 
