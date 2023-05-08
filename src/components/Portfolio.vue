@@ -7,14 +7,16 @@
         <h3>Tejeduras</h3>
         <div class="description">
           <ul>
-            <li>Chat GPT API Experiment</li>
-            <li></li>
-            <li></li>
+            <li>Experimental learning platform built in Flask / Python enviroment.</li>
+            <li>Leverages OpenAI GPT model to provide users with a personalized learning experience.</li>
+            <li>Custom prompts suggest what the user might want to learn and how to interact with the machine.</li>
           </ul>
         </div>
-        <a href="https://github.com/rdeyo1129/tejeduras">
-          <button>VIEW</button>
-        </a>
+        <div class="button-wrapper">
+          <a href="https://tejeduras.herokuapp.com/">
+            <button>VIEW</button>
+          </a>
+        </div>
       </div>
     </div>
     <div class="project">
@@ -28,9 +30,11 @@
             <li>Notes on applied mathematics for data science including probability, statistics, calculus, and linear algebra.</li>
           </ul>
         </div>
-        <a href="https://github.com/rdeyo1129/engineering-slate">
-          <button>VIEW</button>
-        </a>
+        <div class="button-wrapper">
+          <a href="https://github.com/rdeyo1129/engineering-slate">
+            <button>VIEW</button>
+          </a>
+        </div>
       </div>
     </div>
     <div class="project">
@@ -40,16 +44,18 @@
         <div class="description">
           <ul>
             <li>Progressive web app (MERN, Vite, Socket.io) of a variant-based chess platform.</li>
-            <li>Competitve league mode where users earn a ranking by solving chess puzzles</li>
-            <li>Story-driven mode where users progress through scenarios and learn the game.</li>
-            <li>Basic artificially intelligent engine built using minimax alogorithm.</li>
-            <li>Users create custom variant templates that are used in versus mode.</li>
+            <li>League - users compete to earn a ranking by solving chess puzzles</li>
+            <li>Story - users progress through by fighting the machine and learning the game.</li>
+            <li>Create - craft custom variant templates that are used in versus mode.</li>
+            <li>Artificially intelligent engine built using minimax alogorithm.</li>
           </ul>
         </div>
         <!-- <a href="https://tactorius.herokuapp.com">
           <button>VIEW</button>
         </a> -->
-        <span>CONTACT FOR DEMO</span>
+        <div class="button-wrapper">
+          <span>CONTACT FOR DEMO</span>
+        </div>
       </div>
     </div>
     <div class="project">
@@ -66,7 +72,9 @@
         <!-- <a href="https://tactorius.herokuapp.com">
           <button>VIEW</button>
         </a> -->
-        <span>CONTACT FOR DEMO</span>
+        <div class="button-wrapper">
+          <span>CONTACT FOR DEMO</span>
+        </div>
       </div>
     </div>
     <div class="project">
@@ -80,9 +88,11 @@
             <li>Betting engine</li>
           </ul>
         </div>
-        <router-link :to="{ name: 'Poker' }">
-          <button>VIEW</button>
-        </router-link>
+        <div class="button-wrapper">
+          <router-link :to="{ name: 'Poker' }">
+            <button>VIEW</button>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -101,38 +111,44 @@
     margin: 40px auto 40px auto;
   }
   .project {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: row;
-    width: 800px;
-    height: 300px;
+    width: 840px;
+    height: auto;
     margin: 0 auto 20px auto;
     border-radius: 10px;
     background: #333333;
   }
   .project img {
+    display: flex;
+    align-self: center;
     height: 120px;
     width: 120px;
     margin: 40px;
     border-radius: 5px;
   }
   .project .text {
-    height: 220px;
-    margin: 20px 20px 20px 0;
+    margin: 40px 40px 40px 0;
   }
   .project .description {
-    width: 560px;
+    width: 600px;
     border-top: 4px solid #555555;
     border-left: 4px solid #555555;
     border-top-left-radius: 5px;
-    padding: 20px 0 0 20px;
-    margin-right: 20px;
+    padding: 20px 20px 0 20px;
+    margin: 0 0 20px 0;
+  }
+  .project .button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 36px;
+    width: 600px;
   }
   .project button {
-    position: absolute;
     height: 36px;
-    width: 120px;
-    margin-right: 20px;
+    width: 150px;
     border-radius: 5px;
     color: white;
     right: 20px;
@@ -143,11 +159,10 @@
     background: #AAAAAA;
   }
   .project span {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 150px;
     height: 36px;
-    margin-right: 20px;
-    right: 20px;
-    bottom: 20px;
   }
 
 </style>

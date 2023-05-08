@@ -10,11 +10,23 @@
             <span><b>Front-End Engineer</b></span>
             <br />
             <span><i>Curriculum Associates, 2022 - present</i></span>
+            <ul>
+              <li>Hands-on experience as an individual contributor on a scrum team to deliver school curriculum software in incremental releases.</li>
+              <li>Communicates with on-team and cross-team to make decisions, address issues, and understand requirements.</li>
+              <li>Participates in code reviews and provides constructive feedback to team members.</li>
+              <li>Day to day tasks include data analysis and preparation, tech initiatives such as code generation and library upgrades, all working under React and related user-facing JavaScript libraries.</li>
+              <li>Incorporates feature and unit tests using various testing methodologies to ensure high quality features and functions on application.</li>
+            </ul>
           </p>
           <p>
             <span><b>Front-End Engineer</b></span>
             <br />
             <span><i>F1V, 2020 - 2022</i></span>
+            <ul>
+              <li>Worked with various JavaScript technologies including primarily React and related libraries.</li>
+              <li>Collaborated with a small team of software engineers across a variety of client projects.</li>
+              <li>Communicated directly with clients to discuss product requirements and timelines.</li>
+              </ul>
           </p>
         </div>
       </div>
@@ -27,6 +39,16 @@
             <span><i>Great Bay Community College, 2012 - 2016</i></span>
           </p>
           <p>
+            <span><b>Machine Learning and Data Science Certificates</b></span>
+            <br />
+            <span><i>Kaggle, 2022 - present</i></span>
+          </p>
+          <p>
+            <span><b>Data Science Foundations</b></span>
+            <br />
+            <span><i>Brilliant, 2020 - 2021</i></span>
+          </p>
+          <p>
             <span><b>Nanodegree - React</b></span>
             <br />
             <span><i>Udacity, 2020</i></span>
@@ -36,23 +58,18 @@
             <br />
             <span><i>Udacity, 2020</i></span>
           </p>
-          <p>
-            <span><b>Data Science Foundations</b></span>
-            <br />
-            <span><i>Brilliant, 2020 - present</i></span>
-          </p>
         </div>
       </div>
       <div class="section">
-        <h3>Skills / Knowledge</h3>
+        <h3>Skills and Knowledge</h3>
         <div class="text">
           <ul>
-            <li>MERN Stack</li>
-            <li>Calculus and statistics concepts</li>
-            <li>Written and verbal communication</li>
-            <li>Judgement calls</li>
-            <li>Time management</li>
-            <li>Goal-oriented</li>
+            <li>Statistics, linear algebra, and calculus concepts</li>
+            <li>Machine learning methodology</li>
+            <li>Strategic thinking</li>
+            <li>Scientific Method</li>
+            <li>Growth mindset</li>
+            <li>Progressive web app proficiency</li>
           </ul>
         </div>
       </div>
@@ -84,7 +101,7 @@
     margin: 40px 0 40px 0;
   }
   .about .resume {
-    width: 800px;
+    width: 840px;
     padding: 40px 40px 0 40px;
     margin: 0 auto 80px auto;
     background: #333333;
