@@ -23,6 +23,10 @@
 
 <style scoped>
 
+  .home {
+    color: white;
+    background: #222222;
+  }
   .visual {
     height: 60px;
     background: linear-gradient(#111111 0%, rgba(0,21,173,1) 100%);
