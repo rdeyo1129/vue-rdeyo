@@ -11,11 +11,12 @@
             <br />
             <span><i>Curriculum Associates, 2022 - present</i></span>
             <ul>
-              <li>Hands-on experience as an individual contributor on a scrum team to deliver school curriculum software in incremental releases.</li>
-              <li>Communicates with on-team and cross-team to make decisions, address issues, and understand requirements.</li>
-              <li>Participates in code reviews and provides constructive feedback to team members.</li>
-              <li>Day to day tasks include data analysis and preparation, tech initiatives such as code generation and library upgrades, all working under React and related user-facing JavaScript libraries.</li>
+              <li>Hands-on experience as an individual contributor on a scrum team, delivering school curriculum software in incremental releases.</li>
+              <li>On team and cross-team communication to make decisions, address issues, and understand requirements via verbal and written communication.</li>
+              <li>Participates in code reviews and provides constructive feedback to team members and attain knowledge to merge features confidently into codebase.</li>
+              <li>Day to day tasks include analyzing and prepping data, writing documentation, tech initiatives, working under React-central codebase and related user-facing JavaScript libraries.</li>
               <li>Incorporates feature and unit tests using various testing methodologies to ensure high quality features and functions on application.</li>
+              <li>Took part in extra-curricular data science lab project to build machine learning model from scratch using python with exposure to machine learning concepts and AWS SageMaker.</li>
             </ul>
           </p>
           <p>
@@ -26,7 +27,7 @@
               <li>Worked with various JavaScript technologies including primarily React and related libraries.</li>
               <li>Collaborated with a small team of software engineers across a variety of client projects.</li>
               <li>Communicated directly with clients to discuss product requirements and timelines.</li>
-              </ul>
+            </ul>
           </p>
         </div>
       </div>

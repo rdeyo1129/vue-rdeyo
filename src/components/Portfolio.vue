@@ -2,6 +2,24 @@
   <div class="portfolio">
     <h1>Portfolio</h1>
     <div class="project">
+      <img src="../assets/experiment.png" />
+      <div class="text">
+        <h3>Software Engineering Team Performance</h3>
+        <div class="description">
+          <ul>
+            <li>Data science experiement coducted from scratch up through data collection, exploration, cleaning, model building, and deployment with SageMaker.</li>
+            <li>Data pulls from table of information about the behavior of student software engineering teams and the grade they received at the end of a number of semesters.</li>
+            <li>Model predicts using XGBoost classifier algorithm.</li>
+          </ul>
+        </div>
+        <div class="button-wrapper">
+          <a href="https://github.com/rdeyo1129/se_team_performance">
+            <button>VIEW</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="project">
       <img src="../assets/tejeduras.png" />
       <div class="text">
         <h3>Tejeduras</h3>
@@ -25,7 +43,7 @@
         <h3>Engineering Slate</h3>
         <div class="description">
           <ul>
-            <li>Hands-on learning with Kaggle, Project Euler, and Amazon SageMaker.</li>
+            <li>Learning, and problem solving with Kaggle and Project Euler.</li>
             <li>Notes on programming machine learning concepts, algorithms, and techniques with Python and R.</li>
             <li>Notes on applied mathematics for data science including probability, statistics, calculus, and linear algebra.</li>
           </ul>
