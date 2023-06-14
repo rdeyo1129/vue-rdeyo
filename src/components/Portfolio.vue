@@ -8,8 +8,8 @@
         <div class="description">
           <ul>
             <li>Data science experiement coducted from scratch up through data collection, exploration, cleaning, model building, and deployment with SageMaker.</li>
-            <li>Data pulls from table of information about the behavior of student software engineering teams and the grade they received at the end of a number of semesters.</li>
-            <li>Model predicts using XGBoost classifier algorithm.</li>
+            <li>Model predicts the behavior of student software engineering teams and the grade they receive at the end of a number of semesters.</li>
+            <li>Learned about extracting actionable insight from problems.</li>
           </ul>
         </div>
         <div class="button-wrapper">
@@ -68,12 +68,14 @@
             <li>Artificially intelligent engine built using minimax alogorithm.</li>
           </ul>
         </div>
-        <!-- <a href="https://tactorius.herokuapp.com">
-          <button>VIEW</button>
-        </a> -->
         <div class="button-wrapper">
-          <span>CONTACT FOR DEMO</span>
+          <a href="https://tactorius.herokuapp.com">
+            <button>VIEW</button>
+          </a>
         </div>
+        <!-- <div class="button-wrapper">
+          <span>CONTACT FOR DEMO</span>
+        </div> -->
       </div>
     </div>
     <div class="project">
