@@ -2,6 +2,48 @@
   <div class="portfolio">
     <h1>Portfolio</h1>
     <div class="project">
+      <img src="../assets/tact.png" />
+      <div class="text">
+        <h3>Tactorius</h3>
+        <div class="description">
+          <ul>
+            <li>Progressive web app (MERN, Vite, Socket.io), variant-based chess platform.</li>
+            <li>League - users compete to earn a ranking by solving chess puzzles.</li>
+            <li>Story - users progress through by fighting the machine and learning the game.</li>
+            <li>Create - craft custom variant templates that are used in versus mode.</li>
+            <li>Artificially intelligent engine built using minimax alogorithm.</li>
+          </ul>
+        </div>
+        <div class="button-wrapper">
+          <a href="https://tactorius.herokuapp.com">
+            <button>VIEW</button>
+          </a>
+        </div>
+        <!-- <div class="button-wrapper">
+          <span>CONTACT FOR DEMO</span>
+        </div> -->
+      </div>
+    </div>
+    <div class="project">
+      <img src="../assets/tadium.png" />
+      <div class="text">
+        <h3>Stacktadium</h3>
+        <div class="description">
+          <ul>
+            <li>Progressive web app - MEVN, Vite, Socket.io</li>
+            <li>New RTS concept that mixes skill, strategy, and probability.</li>
+            <li>Users compete against the machine and one another to place on the leaderboard.</li>
+          </ul>
+        </div>
+        <!-- <a href="https://tactorius.herokuapp.com">
+          <button>VIEW</button>
+        </a> -->
+        <div class="button-wrapper">
+          <span>CONTACT FOR DEMO</span>
+        </div>
+      </div>
+    </div>
+    <div class="project">
       <img src="../assets/experiment.png" />
       <div class="text">
         <h3>Software Engineering Team Performance</h3>
@@ -56,56 +98,14 @@
       </div>
     </div>
     <div class="project">
-      <img src="../assets/tact.png" />
-      <div class="text">
-        <h3>Tactorius</h3>
-        <div class="description">
-          <ul>
-            <li>Progressive web app (MERN, Vite, Socket.io) of a variant-based chess platform.</li>
-            <li>League - users compete to earn a ranking by solving chess puzzles</li>
-            <li>Story - users progress through by fighting the machine and learning the game.</li>
-            <li>Create - craft custom variant templates that are used in versus mode.</li>
-            <li>Artificially intelligent engine built using minimax alogorithm.</li>
-          </ul>
-        </div>
-        <div class="button-wrapper">
-          <a href="https://tactorius.herokuapp.com">
-            <button>VIEW</button>
-          </a>
-        </div>
-        <!-- <div class="button-wrapper">
-          <span>CONTACT FOR DEMO</span>
-        </div> -->
-      </div>
-    </div>
-    <div class="project">
-      <img src="../assets/tadium.png" />
-      <div class="text">
-        <h3>Stacktadium</h3>
-        <div class="description">
-          <ul>
-            <li>Progressive web app - MEVN, Vite, Socket.io</li>
-            <li>New RTS concept that mixes skill, strategy, and probability</li>
-            <li>Users compete against the machine and one another to place on the leaderboard.</li>
-          </ul>
-        </div>
-        <!-- <a href="https://tactorius.herokuapp.com">
-          <button>VIEW</button>
-        </a> -->
-        <div class="button-wrapper">
-          <span>CONTACT FOR DEMO</span>
-        </div>
-      </div>
-    </div>
-    <div class="project">
       <img src="../assets/poker.png" />
       <div class="text">
         <h3>Poker</h3>
         <div class="description">
           <ul>
-            <li>Online simulator of classic card game</li>
-            <li>Validation that measures hand strengths to determine winner</li>
-            <li>Betting engine</li>
+            <li>Online simulator of classic card game.</li>
+            <li>Validation that measures hand strengths to determine winner.</li>
+            <li>Betting engine.</li>
           </ul>
         </div>
         <div class="button-wrapper">
